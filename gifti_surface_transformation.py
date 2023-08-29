@@ -50,6 +50,7 @@ def transform_gifti_between_spaces(in_filename, out_filename, affine_tfm, inv_wa
 
 
 if __name__ == "__main__":
+    # Example call:
     transform_gifti_between_spaces(
         "./input/brain_in_space_1.rh.white.surf.gii",
         "./transforms/tfm_0GenericAffine.mat",
